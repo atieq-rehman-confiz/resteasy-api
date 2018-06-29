@@ -37,4 +37,5 @@ Following steps are to be followed to extract swagger ui for integration with ex
 Note: Currently application works only with **/** as root contact path, API path needs to be adjusted accordingly on following locations if any change in root context is required.
 * web.xml ->Resteasy filter's *url-pattern*
 * value of annotation *@ApplicationPath* in *APIApplication*
+* Add/Update Rest resources in *APIApplication*
 * Value of *api.basepath* in *application.properties* 
