@@ -21,6 +21,7 @@ This app uses RESTEasy API to expose REST web services on embeddy jetty web serv
 ## Startup
 
 * clean & build with mvn and run embedded jetty server as *jetty:run*
+* open the browser to access as (http://localhost:8888/index.html)
 
 ## How to extract swagger related stuff
 
